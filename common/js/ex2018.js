@@ -1,0 +1,11 @@
+$(function(){
+  $(".modal-close").click(function(){
+    $(".modal").fadeOut();
+  });
+  $("a.greet").click(function(){
+    $(".modal").css({display:"flex"});
+  });
+  $("a.about").click(function(){
+    $(".modal").css({display:"flex"});
+  });
+})

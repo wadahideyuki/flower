@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import "init/reset";//リセット
+
+$mincho :  "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+
+
+html{
+  font-size: 10px;
+}
+#wrapper{
+  width: 100%;
+}
+#container_sitemap{
+  width: 100%;
+}
+
+.ex2018{
+  font-size: 1.4rem;
+  line-height: 1.8;
+  section{
+    padding: 100px 0 0 0;
+  }
+  h2{
+    font-family: $mincho;
+    font-size: 4.6rem;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 1.5em;
+    span{
+      border-bottom: 1px solid #000;
+      padding: 0 0 1em 0;
+      margin-bottom: 1.5em;
+      font-size: 1.6rem;
+      display: inline-block;
+    }
+  }
+  
+  main{
+    img{
+      max-width: 100%;
+    }
+    h1{
+      text-align: center;
+      padding: 60px 10px;
+    }
+  }
+  
+  .content-overview{
+    .overview-box{
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      & > div{
+        width: 47%;
+        text-align: left;
+        p{
+          line-height: 2.2;
+          padding-top: 2em;
+        }
+      }
+      dl{
+        border-top: 1px solid #000;
+        padding: 1em 0 0 0;
+        margin-bottom: 1em;
+        display: flex;
+        justify-content: space-between;
+        &:last-of-type{
+          border-bottom: 1px solid #000;
+          padding-bottom: 1em;
+        }
+        dt{
+          width: 20%;
+        }
+        dd{
+          width: 80%;
+          span{
+            color: #999;
+            line-height: 1.6;
+            padding-top: 0.8em;
+            display: block;
+            font-size: 1.2rem;
+            text-indent: -1em;
+            margin-left: 1em;
+          }
+        }
+      }
+    }
+    .col2-btn{
+      display: flex;
+      padding: 100px 0 0 0;
+      justify-content: space-between;
+      li{
+        width: 50%;
+        a{
+          padding: 13% 0;
+          font-size: 5rem;
+          font-family: $mincho;
+          color: #FFF;
+          text-align: center;
+          display: block;
+          background-size:100% auto  ;
+          background-repeat: no-repeat;
+          background-position: center;
+          transition: 0.3s;
+          &:hover{
+          text-decoration: none;
+            background-size: 110% auto;
+          }
+          &.greet{
+            background-image: url("../../2018/img/thumb_greet.png")
+          }
+          &.about{
+            background-image: url("../../2018/img/thumb_about.png")
+          }
+        }
+      }
+    }
+  }
+  .exhibitor-box{
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #000;
+    padding: 2em 0;
+    &:first-of-type{
+      border-top: 3px solid #000;
+    }
+    h3{
+      width: 10%;
+      font-size: 1.8rem;
+      text-align: left;
+    }
+    dl{
+      width: 90%;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      text-align: left;
+      &:first-of-type{
+        border-top: 3px;
+      }
+      dt{
+        width: 15%;
+        min-width: 80px;
+      }
+      dd{
+        width: 85%;
+      }
+    }
+  }
+    .col3-btn{
+      display: flex;
+      padding: 100px 0 0 0;
+      justify-content: space-between;
+      li{
+        width: 35%;
+        a{
+          padding: 18% 0;
+          font-size: 2.5rem;
+          font-family: $mincho;
+          color: #FFF;
+          text-align: center;
+          display: block;
+          background-size:110% auto  ;
+          background-repeat: no-repeat;
+          background-position: center;
+          transition: 0.3s;
+          &:hover{
+          text-decoration: none;
+            background-size: 120% auto;
+          }
+          &.ex2015{
+            background-image: url("../../2018/img/ex2015.png")
+          }
+          &.ex2016{
+            background-image: url("../../2018/img/ex2016.png")
+          }
+          &.ex2017{
+            background-image: url("../../2018/img/ex2017.png")
+          }
+        }
+      }
+    }
+  .content-talk{
+    padding-bottom: 100px;
+    .talk-box{
+      max-width: 1000px;
+      margin: 0 auto;
+      width: 100%;
+      text-align: left;
+      ul{
+        padding-top: 1em;
+        li{
+          p{
+            padding-top: 1em;
+          }
+        }
+      }
+    }
+  }
+  .vol-box{
+    background: #EEE;
+    padding: 40px;
+    margin-top: 50px;
+    dt{
+      font-size: 2.2rem;
+      font-family: $mincho;
+      font-weight: bold;
+      border-bottom: 1px solid #000;
+      padding: 0 0 0.5em 0;
+      margin-bottom: 0.5em;
+      span{
+        font-size: 1.4rem;
+        background: #000;
+        color: #FFF;
+        margin-top: -0.4em;
+        line-height: 1;
+        vertical-align: middle;
+        display: inline-block;
+        padding: 0.4em 0.5em;
+      }
+      em{
+        font-size: 2rem;
+      }
+    }
+    p{
+      font-size: 1.6rem;
+    }
+    h4{
+      font-weight: bold;
+      font-size: 2.2rem;
+      font-family: $mincho;
+      padding: 1em 0 0 0;
+    }
+    .syutsuen{
+      display: flex;
+      margin-left: -2%;
+      li{
+        width: 23%;
+        margin: 0 2%;
+        text-align: center;
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .content-colabo{
+    background: #f4f4f4;
+    h2{
+      margin-bottom: 0;
+    }
+    p{
+      font-size: 1.6rem;
+      padding: 2em;
+    }
+  }
+}
+.icnfb {
+  display: inline-block;
+  background: url(../../2018/img/fb.png) no-repeat left 0.3em;
+  padding: 0 0 0 1.3em;
+  background-size: 1em;
+  margin-left: 0.3em;
+}
+.icninsta {
+  display: inline-block;
+  background: url(../../2018/img/insta.png) no-repeat left 0.3em;
+  padding: 0 0 0 1.3em;
+  background-size: 1em;
+  margin-left: 0.3em;
+}
+.modal{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0,0,0,0.8);
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  .modal-inner{
+    max-width: 700px;
+    padding: 50px;
+    width: 96%;
+    background: #FFF;
+  }
+  .modal-close{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    font-size: 5vw;
+    color: #FFF;
+    line-height: 1;
+  }
+  
+}
+
+

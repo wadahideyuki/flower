@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* dress.css */
+
+	
+
+
+.pad_title_maintitle01 {
+	text-align: left;
+	padding: 0 0 12px 0;
+}
+
+.pad_title_maintitle02 {
+	text-align: left;
+	padding: 10px 0 8px 0;
+}
+
+.pad_title_maintitle03 {
+	text-align: left;
+	padding: 30px 0 8px 0;
+}
+		
+.pad_mainarea_dotline01 {
+	text-align: left;
+	padding: 30px 0 30px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+
+/*------------ DRESS ------------*/	
+
+#container_church {
+	margin-left: 9px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	width: 626px;
+}
+
+
+.font_church01 {
+	font-size: 1.06em;
+	width: 600px;
+	line-height: 1.6em;
+	padding: 0 0 10px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_church02 {
+	font-size: 1.06em;
+	width: 290px;
+	line-height: 1.6em;
+	padding: 0 0 10px 5px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+.pad_church_01 {
+	text-align: left;
+	padding: 12px 0 12px 0;
+}
+
+
+.pad_church02_left {
+	text-align: left;
+	width: 348px;
+	float: left;
+	padding: 0 0 12px 0;
+}
+
+.pad_church02_right {
+	text-align: left;
+	float: left;
+	padding: 0 0 12px 0;
+}

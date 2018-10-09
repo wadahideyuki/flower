@@ -1,0 +1,120 @@
+@charset "UTF-8";
+//クラス用scss
+@import "init/mq";
+@import "init/var";
+
+
+.pc{}
+@include mq($bp:pc){
+	.sp{display: none !important;}
+}
+
+
+/*-- font-size --*/
+
+
+.fw{
+	&B{font-weight: bold !important;}
+	&N{font-weight: normal !important;}
+}
+
+
+/*-- Etc --*/
+.dis{
+	&I{display:inline !important;}
+	&B{display:block !important;}
+	&IB{display:inline-block !important;}
+	&T{display:table !important;}
+	&TC{display:table-cell !important;}
+	&N{display:none !important;}
+	&F{display: flex !important;}
+}
+
+.ta {
+	&L{text-align: left !important;}
+	&R{text-align: right !important;}
+	&C{text-align: center !important;}
+}
+.va {
+	&T{vertical-align: top !important;}
+	&M{vertical-align: middle !important;}
+	&B{vertical-align: bottom !important;}
+	&TB{vertical-align: text-bottom !important;}
+}
+
+.flt{
+	&L{float: left !important;}
+	&R{float: right!important;}
+	&N{float: none!important;}
+}
+
+.pos{
+	&S{position:static !important;}
+	&R{position:relative !important;}
+	&A{position:absolute !important;}
+	&F{position:fixed !important;}
+}
+
+.brWord{word-wrap:break-word;}
+.waNw{white-space: nowrap;}
+
+.printDown{display:none;}
+.printBreak{display:none;}
+
+
+
+
+@include mq{
+.pc{display: none !important;}
+
+/*-- Width --*/
+.spWAuto{width:auto !important;}
+/*-- font-size --*/
+
+
+.spFw{
+	&B{font-weight: bold !important;}
+	&N{font-weight: normal !important;}
+}
+
+
+/*-- Etc --*/
+.spDis{
+	&I{display:inline !important;}
+	&B{display:block !important;}
+	&IB{display:inline-block !important;}
+	&T{display:table !important;}
+	&TC{display:table-cell !important;}
+	&N{display:none !important;}
+	&F{display: flex !important;}
+}
+
+.spTa {
+	&L{text-align: left !important;}
+	&R{text-align: right !important;}
+	&C{text-align: center !important;}
+}
+.spVa {
+	&T{vertical-align: top !important;}
+	&M{vertical-align: middle !important;}
+	&B{vertical-align: bottom !important;}
+	&TB{vertical-align: text-bottom !important;}
+}
+
+.spFlt{
+	&L{float: left !important;}
+	&R{float: right!important;}
+	&N{float: none!important;}
+}
+
+.spPos{
+	&S{position:static !important;}
+	&R{position:relative !important;}
+	&A{position:absolute !important;}
+	&F{position:fixed !important;}
+}
+
+
+
+
+}

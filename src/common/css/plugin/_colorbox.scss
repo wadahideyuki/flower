@@ -1,0 +1,103 @@
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#cbox2Overlay{
+}
+#colorbox, #cbox2Overlay, #cbox2Wrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cbox2Overlay{position:fixed; width:100%; height:100%;}
+#cbox2MiddleLeft, #cbox2BottomLeft{clear:left;}
+#cbox2Content{position:relative; overflow:hidden;padding-bottom: 20px;}
+#cbox2LoadedContent{overflow:auto;}
+#cbox2LoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cbox2Title{margin:0;}
+#cbox2LoadingOverlay, #cbox2LoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cbox2Previous, #cbox2Next, #cbox2Close, #cbox2Slideshow{cursor:pointer;}
+
+/* 
+    Example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cbox2Overlay{background:rgba(0,0,0,1)  url(//deagostini.jp/site/common/overlay.png) 0 0 repeat;}
+#colorbox{}
+    #cbox2TopLeft{width:21px; height:21px; background:none -100px 0 no-repeat;}
+    #cbox2TopRight{width:21px; height:21px; background:none -129px 0 no-repeat;}
+    #cbox2BottomLeft{width:21px; height:21px; background:none -100px -29px no-repeat;}
+    #cbox2BottomRight{width:21px; height:21px; background:none -129px -29px no-repeat;}
+    #cbox2MiddleLeft{width:21px; background:none left top repeat-y;}
+    #cbox2MiddleRight{width:21px; background:none right top repeat-y;}
+    #cbox2TopCenter{height:21px; background:none 0 0 repeat-x;}
+    #cbox2BottomCenter{height:21px; background:none 0 -29px repeat-x;}
+   /* #cbox2Content{background:;}*/
+        #cbox2LoadedContent{margin-bottom:28px; padding:30px 60px 0px;}
+        #cbox2Title{   
+			position: absolute;
+top: 636px;
+left: 60px;
+text-align: left;
+width: 860px;
+			font-size: 14px;
+color: #FFF;
+			font-weight: bold;
+text-shadow: 1px 1px 3px #000;
+}
+        #cbox2Current{position:absolute; top:10px; left:60px; color:#FFFFFF;}
+        #cbox2Slideshow{position:absolute; bottom:3px; right:30px; color:#FFFFFF;}
+        #cbox2Previous{left:10px;transform: rotate(-135deg);}
+        #cbox2Previous.hover{}
+        #cbox2Next{right:10px;transform: rotate(45deg);}
+        #cbox2Next.hover{}
+        #cbox2LoadingOverlay{background:url(//deagostini.jp/site/common/loading_background.png) center center no-repeat;}
+        #cbox2LoadingGraphic{background:url(//deagostini.jp/site/common/loading.gif) center center no-repeat;}
+        #cbox2Close{
+		position:absolute;
+		bottom: 11px;
+    right: 60px;
+    background: url(../images/colorbox_close.png);
+    background-position: left 4px;
+    background-repeat: no-repeat;
+    width: 87px;
+    height: 32px;
+    text-indent: -9999px;
+    border: 0px;
+    border-radius: 5px;}
+
+/*
+    The following fixes png-transparency for IE6.  
+    It is also necessary for png-transparency in IE7 & IE8 to avoid 'black halos' with the fade transition
+    
+    Since this method does not support CSS background-positioning, it is incompatible with CSS sprites.
+    Colorbox preloads navigation hover classes to account for this.
+    
+    !! Important Note: AlphaImageLoader src paths are relative to the HTML document,
+    while regular CSS background images are relative to the CSS document.
+*/
+
+#cbox2Previous,
+#cbox2Next{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: none;
+	width:40px;
+	height:40px;
+	margin:auto;
+	padding: 0;
+	text-indent:-9999px;
+	border-style: solid;
+	border-width: 8px 8px 0 0;
+	border-color: #fff #fff transparent transparent;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	z-index:10000;
+}
+#cbox2Previous:hover,
+#cbox2Next:hover{
+	opacity: 0.7;
+}
+input::-moz-focus-inner, button::-moz-focus-inner {
+  border: 0;
+}

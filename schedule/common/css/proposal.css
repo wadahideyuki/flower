@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* proposal.css */
+
+
+#contatiner_proposal {
+	width: 570px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.font_proposal_date {
+	width: 560px;
+	font-size: 1.02em;
+	text-align: left;
+	padding: 0 0 5px 3px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+.font_proposal_01 {
+	width: 550px;
+	font-size: 1.15em;
+	font-weight: bold;
+	line-height: 1.6em;
+	text-align: left;
+	padding: 0 0 12px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_proposal_02 {
+	width: 550px;
+	font-size: 1.08em;
+	line-height: 1.6em;
+	text-align: left;
+	padding: 0 0 42px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_proposal_03 {
+	width: 550px;
+	font-size: 1.08em;
+	line-height: 1.6em;
+	text-align: left;
+	padding: 0 0 12px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.pad_proposal_dotline {
+	padding: 0 0 12px 0;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.pad_proposal_reserve {
+	padding: 0 0 12px 10px;
+	text-align: left;
+}
+
+

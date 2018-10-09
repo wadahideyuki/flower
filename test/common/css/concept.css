@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* concept.css */
+
+
+
+/***************** top concept *****************/
+
+#container_conceptimg {
+	text-align: center;
+	background-image:url("../../images/top_img01.jpg");
+	background-repeat: no-repeat;
+	height: 810px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+#container_conceptimg .font_concept01 {
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 1.5em;
+	letter-spacing:0.2em;
+	line-height: 1.8em;
+	color: #777271;
+	padding: 20px 0 42px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+	
+#container_conceptimg .font_concept02 {
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 1.5em;
+	letter-spacing:0.2em;
+	line-height: 1.8em;
+	color: #777271;
+	padding: 0 0 42px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+	
+
+
+
+/***************** sumura top *****************/
+
+#container_concept {
+	text-align: center;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+#container_concept .pad_mainlogo {
+	text-align: center;
+	padding: 98px 0 74px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+#container_concept .font_titletxt {
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 1.6em;
+	letter-spacing:0.2em;
+	line-height: 1.96em;
+	color: #323232;
+	padding: 0 0 142px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+#wrapper_concept {
+	width: 963px;
+	padding: 60px 0 98px 137px;
+	background-image:url("../../images/concept_img.jpg");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+	text-align: left;
+}
+	
+#wrapper_concept .pad_title {
+	text-align: left;
+	padding: 0 0 30px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+#wrapper_concept .font_txt {
+	width: 800px;
+	font-size: 1.2em;
+	line-height: 1.95em;
+	text-align: left;
+	padding: 0 0 20px 8px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+#wrapper_concept .font_txt2 {
+	width: 640px;
+	font-size: 1.34em;
+	line-height: 1.9em;
+	text-align: left;
+	padding: 0 0 0 2px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+
+.pad_concepttitle02 {
+	text-align: center;
+	padding: 30px 0 45px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+
+.pad_line01 {
+	text-align: center;
+	padding: 30px 0 48px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+

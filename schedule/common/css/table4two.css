@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* table4two.css */
+
+
+
+
+/*------------ INDEX------------*/	
+
+
+.pad_title_maintitle01 {
+	text-align: left;
+	padding: 0 0 22px 0;
+}
+
+.pad_title_maintitle02 {
+	text-align: left;
+	padding: 20px 0 15px 0;
+}
+
+
+/*------------ Table for Two ------------*/	
+
+.pad_table4two_title01 {
+	text-align: left;
+	padding: 0 0 2px 0;
+}
+
+.font_table4two_01 {
+	font-size: 1.08em;
+	line-height: 1.6em;
+	width: 595px;
+	padding: 0 0 30px 10px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_table4two_img01 {
+	text-align: left;
+	padding: 0 0 30px 0;
+}
+
+.pad_table4two_title02 {
+	text-align: left;
+	padding: 0 0 38px 0;
+}
+
+.font_table4two_02 {
+	font-size: 1.08em;
+	line-height: 1.6em;
+	width: 595px;
+	padding: 0 0 8px 10px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_table4two_img02 {
+	text-align: left;
+	padding: 0 0 8px 0;
+}
+
+
+
+
+
+
+
+.pad_rac_title01 {
+	text-align: left;
+	padding: 0 0 47px 0;
+}
+
+.pad_rac_title02 {
+	text-align: left;
+	padding: 0 0 22px 0;
+}
+
+
+
+
+.pad_sidetag {
+	width: 193px;
+	text-align: center;
+	padding: 0 0 22px 0;
+}
+
+.font_amuse_tag01 {
+	font-size: 1.03em;
+	width: 193px;
+	padding: 0 0 17px 0;
+	text-align: center;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+.font_amuse_rac02 {
+	font-size: 1.08em;
+	width: 605px;
+	line-height: 1.6em;
+	padding: 0 0 35px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+
+.pad_rac_left02 {
+	width: 250px;
+	float: left;
+	text-align: center;
+	padding: 40px 0 24px 0;
+}
+
+.pad_rac_right02 {
+	width: 320px;
+	font-size: 1.08em;
+	line-height: 1.6em;
+	padding: 45px 0 25px 27px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+	float: left;
+	text-align: left;
+}
+
+.pad_rac_title04 {
+	text-align: left;
+	padding: 20px 0 4px 0;
+}
+
+
+.li_racindex01 {
+	width: 160px;
+	text-align: left;
+	padding: 0 0 50px 0;
+	float: left;
+}
+
+.li_racindex02 {
+	width: 151px;
+	text-align: left;
+	padding: 0 0 50px 0;
+	float: left;
+}
+
+.pad_rac_title05 {
+	text-align: left;
+	padding: 50px 0 30px 0;
+}
+
+
+
+.pad_ghw_left01 {
+	width: 295px;
+	font-size: 1.08em;
+	line-height: 1.6em;
+	padding: 90px 25px 24px 4px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+	float: left;
+	text-align: left;
+}
+
+.pad_ghw_right01 {
+	float: left;
+	text-align: left;
+	padding: 10px 0 24px 0;
+}
+	
+.pad_amuse_stg01 {
+	text-align: left;
+	padding: 0 0 14px 0;
+}
+
+

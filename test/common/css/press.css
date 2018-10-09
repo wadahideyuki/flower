@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* press.css */
+
+
+
+
+
+/***************** press top *****************/
+
+#container_press {
+	text-align: center;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+#container_press .pad_mainimg {
+	text-align: center;
+	padding: 0 0 0 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+#container_press .pad_mainlogo {
+	text-align: center;
+	padding: 58px 0 74px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+#wrapper_pressbox {
+	width: 950px;
+	background-color: #f0e8e8;
+	padding: 0 0 0 0;
+	margin-top: -0.0em;
+	margin-bottom: 30px;
+}
+
+ul {
+	width: 866px;
+	padding: 32px 0 20px 42px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+ul li.date {
+	width: 115px;
+	float: left;
+	font-size: 1.0em;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+ul li.title {
+	width: 224px;
+	float: left;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+ul li.text {
+	width: 500px;
+	float: left;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+ul li.text .titletxt {
+	font-size: 1.1em;
+	font-weight: 700;
+	padding: 0 0 15px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+ul li.text .txt {
+	width: 500px;
+	font-size: 1.1em;
+	line-height: 1.7em;
+	padding: 0 0 25px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+ul li.text .link {
+	font-size: 1.04em;
+	padding: 0 0 0 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}

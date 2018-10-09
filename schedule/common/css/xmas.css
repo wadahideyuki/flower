@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* xmas.css */
+
+html {
+	margin: 0 auto;
+	background: #ffffff; /* Fills the page */
+	position: relative; /* Fix for absolute positioning */
+}
+
+body { 
+	overflow-x: hidden; 
+	font-family: "メイリオ","Meiryo",Osaka,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",verdana,arial,clean,sans-serif;
+	font-size: 12px;
+	line-height: 165%;
+	color: #363636;
+}
+
+
+/*
+ altText
+----------------------------------------------------------------------------------------------------*/
+.altText{
+	display:inline-block;
+	height:0;
+	width:0;
+	overflow:hidden;
+	position:absolute;
+}
+
+/*
+ clrF
+----------------------------------------------------------------------------------------------------*/
+.clrF:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clrF{
+	display:inline-block;
+	min-height:1%;
+}
+* html .clrF{height:1%;}
+.clrF{display:block;}
+
+/*------------ Header Accessary ------------*/	
+
+
+
+
+/*
+ content
+----------------------------------------------------------------------------------------------------*/
+#content{}
+#content #content_inner{
+	margin:0 auto;
+	padding:147px 0 0;
+	width:100%;
+}
+#content #content_inner .contentInner{
+}
+
+/*------------footer-------------*/
+
+
+
+/*------------ MAIN ------------*/	
+
+#container_main {
+	width: 100%;
+	margin-top: 22px;
+	margin-bottom: 0;
+}
+
+
+
+.font_xmastitle {
+	font-size: 1.18em;
+	color: #2f4f9f;
+	padding: 0 0 17px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+	
+
+
+.font_xmas01 {
+	font-size: 1.08em;
+	padding: 0 0 17px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+	
+.font_contact02 li {
+	background-image: url(../../images/contact_icon.gif);
+	background-repeat: no-repeat;
+	margin-left:25px;
+	margin-top: -0.0em;
+	padding: 0 0 0 38px;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------ 画像------------*/	
+
+
+.alpha a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha(opacity=70)";
+}
+
+
+
+
+
+
+/*------------ basic ------------*/	
+
+.cl {
+	clear: left;
+}
+
+#title {
+	margin: 0px;
+	position: absolute;
+	top: -9999px;
+}
+
+
+a:link {
+	color: #4f96c8;
+	text-decoration:none;
+	outline: none;
+}
+
+a:visited {
+	color: #4f96c8;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #8bdadb;
+	text-decoration: underline;
+	outline: none;
+}
+
+a:active {
+	color: #d2f2cd;
+	text-decoration: underline;
+	outline: none;
+}
+
+body,div,ul,ol,li,h1,h2,td {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}

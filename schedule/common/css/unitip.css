@@ -1,0 +1,41 @@
+/* unitip css */
+
+#unitip {
+	position: absolute;
+	z-index: 999999;
+	top: -1000px;
+	color: #323232f;
+	font: 0.9em "ƒƒCƒŠƒI","Meiryo",Osaka,"ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro",verdana,arial,clean,sans-serif;
+	line-height: 1.4em;
+	display: none;
+	font-weight:lighter;
+}
+
+	#unitippoint, #unitipmid, #unitipcap {
+		position: relative;
+		top: 0px; 
+		left: 0px;
+		width: 225px;
+		display: block;
+	}
+	
+	#unitippoint { 
+		background: url(images/TipPoint2.png) no-repeat; 
+		height: 19px; 
+		overflow: hidden; 
+	}
+	
+	#unitipmid { 
+		background: url(images/TipMid2.png) repeat; 
+		width: 195px;
+		height: auto; 
+		padding: 5px 15px;
+	}
+	
+	#unitipcap { 
+		background: url(images/TipCap2.png) no-repeat; 
+		height: 7px; 
+		overflow: hidden; 
+	}
+	
+	

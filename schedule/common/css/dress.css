@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* dress.css */
+
+	
+
+
+.pad_title_maintitle01 {
+	text-align: left;
+	padding: 0 0 12px 0;
+}
+
+.pad_title_maintitle02 {
+	text-align: left;
+	padding: 10px 0 8px 0;
+}
+
+.pad_title_maintitle03 {
+	text-align: left;
+	padding: 30px 0 8px 0;
+}
+		
+.pad_mainarea_dotline01 {
+	text-align: left;
+	padding: 30px 0 30px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+
+/*------------ DRESS ------------*/	
+
+#container_dress {
+	margin-left: 9px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	width: 626px;
+}
+
+
+.font_dress01 {
+	font-size: 1.06em;
+	width: 600px;
+	line-height: 1.6em;
+	padding: 0 0 10px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+.pad_dress_01 {
+	text-align: left;
+	padding: 12px 0 12px 0;
+}
+
+
+.li_tumb {
+	width: 208px;
+	text-align: center;
+	padding: 0 0 10px 0;
+	float: left;
+}
+
+
+
+#bg_fittingroom01 {
+	background-image: url(../../images/dress/roomimg03.jpg);
+	background-repeat: no-repeat;
+	width: 626px;
+	height: 339px;
+	margin-top: -0.0em;
+	margin-bottom: 2em;
+}
+
+#bg_fittingroom02 {
+	background-image: url(../../images/dress/roomimg05.jpg);
+	background-repeat: no-repeat;
+	width: 626px;
+	height: 273px;
+	margin-top: -0.0em;
+	margin-bottom: 3.3em;
+}
+
+#bg_fittingroom03 {
+	background-image: url(../../images/dress/roomimg06.jpg);
+	background-repeat: no-repeat;
+	width: 626px;
+	height: 287px;
+	margin-top: -0.0em;
+	margin-bottom: 2.3em;
+}
+
+.font_fittingroom01 {
+	font-size: 1.06em;
+	padding: 286px 0 0 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+.font_fittingroom02 {
+	font-size: 1.06em;
+	width: 600px;
+	line-height: 1.6em;
+	padding: 0 0 60px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_fittingroom03 {
+	font-size: 1.06em;
+	padding: 259px 0 0 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+.font_fittingroom04 {
+	font-size: 1.06em;
+	padding: 258px 0 0 226px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}		

@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* plan.css */
+
+	
+
+
+.pad_title_maintitle01 {
+	text-align: left;
+	padding: 0 0 12px 0;
+}
+
+.pad_title_maintitle02 {
+	text-align: left;
+	padding: 10px 0 8px 0;
+}
+
+.pad_title_maintitle03 {
+	text-align: left;
+	padding: 30px 0 8px 0;
+}
+		
+.pad_mainarea_dotline01 {
+	text-align: left;
+	padding: 30px 0 30px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+
+/*------------ PLAN ------------*/	
+
+#container_plan {
+	margin-left: 9px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	width: 626px;
+}
+
+
+.font_plan01 {
+	font-size: 1.06em;
+	width: 600px;
+	line-height: 1.6em;
+	padding: 0 0 10px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+.pad_plan_01 {
+	text-align: left;
+	padding: 32px 0 12px 0;
+}
+
+#table_index01 {
+	background-image: url(../../images/plan/plan_index01.jpg);
+	background-repeat: no-repeat;
+	width: 626px;
+	height: 265px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+#table_index02 {
+	background-image: url(../../images/plan/plan_index02.jpg);
+	background-repeat: no-repeat;
+	width: 626px;
+	height: 260px;
+	margin-top: -0.0em;
+	margin-bottom: 10.0em;
+}
+
+
+#table_index03 {
+	background-image: url(../../images/plan/plan_index03.jpg);
+	background-repeat: no-repeat;
+	width: 625px;
+	height: 265px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+#table_index04 {
+	background-image: url(../../images/plan/plan_index04.jpg);
+	background-repeat: no-repeat;
+	width: 626px;
+	height: 260px;
+	margin-top: -0.0em;
+	margin-bottom: 10.0em;
+}
+
+#table_index05 {
+	background-image: url(../../images/plan/plan_index05.jpg);
+	background-repeat: no-repeat;
+	width: 626px;
+	height: 266px;
+	margin-top: -0.0em;
+	margin-bottom: 5.0em;
+}
+
+
+
+.font_plan02 {
+	font-size: 1.06em;
+	width: 280px;
+	line-height: 1.6em;
+	padding: 92px 0 18px 23px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_plan03 {
+	font-size: 1.06em;
+	padding: 0 0 7px 23px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_plan03 span.plan01 {
+	font-size: 0.95em;
+	padding: 0 20px 0 0;
+	text-align: left;
+	color: #55819a;
+}
+
+.font_plan03 span.plan02 {
+	font-size: 0.95em;
+	padding: 0 8px 0 0;
+	text-align: left;
+	color: #55819a;
+}	
+
+.pad_plan_02 {
+	text-align: left;
+	padding: 3px 0 0 23px;
+}
+
+
+
+
+.pad_plan_03 {
+	text-align: left;
+	padding: 32px 0 42px 10px;
+}
+
+
+
+#table_plan001 {
+	width: 505px;
+	height: 44px;
+	border: 1px #323232 solid;
+	margin-left: 10px;
+	margin-bottom: 12px;
+}
+
+#table_plan005 {
+	width: 540px;
+	height: 44px;
+	border: 1px #323232 solid;
+	margin-left: 10px;
+	margin-bottom: 12px;
+}
+
+.font_plan04 {
+	font-size: 1.08em;
+	padding: 12px 0 7px 23px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_plan04 span.plan01 {
+	font-size: 1.08em;
+	padding: 12px 15px 0 0;
+	text-align: left;
+	color: #55819a;
+}
+
+.font_plan04 span.plan02 {
+	font-size: 1.08em;
+	padding: 12px 0 0 15px;
+	text-align: left;
+	color: #55819a;
+}
+
+
+.font_plan05 {
+	font-size: 1.06em;
+	line-height: 1.6em;
+	padding: 2px 0 18px 18px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_plan05 span {
+	color: #c73737;
+}
+
+.font_plan06 {
+	font-size: 1.1em;
+	padding: 12px 0 8px 8px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_plan06 span.large {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.font_plan06 span.green {
+	color: #55819a;
+}
+	
+	
+	
+.font_plan07 {
+	font-size: 1.06em;
+	padding: 0 0 38px 12px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+.font_plan07 li {
+	list-style-image: url(../../images/plan/bullet01.gif);
+	padding: 3px 0 3px 22px;
+}
+
+.font_plan07 li span.red {
+	font-size: 0.95em;
+	color: #c73737;
+	padding: 0 8px 0 8px;
+}
+
+.font_plan07 li span.blue {
+	font-size: 0.93em;
+	color: #3e7a9f;
+	padding: 0 0 8px 0 0;
+	margin-left: 13px;
+}
+
+.font_plan07 span.red {
+	color: #C00;
+	padding: 0 0 0 8px;
+}
+
+#table_plan002 {
+	width: 400px;
+	height: 100px;
+	border: 1px #323232 solid;
+	margin-left: 10px;
+	margin-bottom: 42px;
+}
+
+.pad_plan002_left {
+	width: 70px;
+	float: left;
+	padding: 8px 0 0 13px;
+	text-align: left;
+}
+
+.pad_plan002_right {
+	float: left;
+	text-align: left;
+}
+
+
+.font_plan08 {
+	font-size: 1.12em;
+	padding: 8px 0 0 0;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_plan08 li {
+	background-image: url(../../images/plan/bullet02.gif);
+	background-repeat: no-repeat;
+	padding: 2px 0 7px 32px;
+}
+
+
+.pad_plan_04 {
+	text-align: left;
+	padding: 0 0 20px 0;
+}
+
+
+.font_plan09 {
+	font-size: 1.06em;
+	width: 600px;
+	line-height: 1.6em;
+	padding: 0 0 30px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+
+
+#table_plan003 {
+	width: 540px;
+	border: 1px #323232 solid;
+	margin-left: 10px;
+	margin-bottom: 42px;
+}
+
+.pad_plan_05 {
+	text-align: left;
+	padding: 15px 0 4px 22px;
+}
+
+.font_plan10 {
+	font-size: 1.06em;
+	width: 500px;
+	padding: 0 0 10px 22px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_plan10 li {
+	list-style-image: url(../../images/plan/bullet01.gif);
+	padding: 3px 0 3px 42px;
+}
+
+
+.pad_plan05_price_left {
+	width: 275px;
+	text-align: left;
+	float: left;
+}
+
+.pad_plan05_price_plus {
+	width: 20px;
+	font-size: 2.06em;
+	text-align: center;
+	float: left;
+	padding: 14px 0 0 15px;
+}
+
+.pad_plan05_price_right {
+	width: 270px;
+	text-align: left;
+	float: left;
+}
+
+#table_plan004 {
+	width: 270px;
+	height: 44px;
+	border: 1px #323232 solid;
+	margin-left: 10px;
+	margin-bottom: 12px;
+}
+
+.pad_plan05_dotline {
+	padding: 3px 0 3px 0;
+	text-align: left;
+}
+
+
+.font_plan11 {
+	font-size: 1.06em;
+	padding: 0 0 6px 12px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_plan11 span.small {
+	font-size: 0.92em;
+}
+
+.font_plan11 span.red {
+	color: #C00;
+	padding: 0 0 0 8px;
+}
+
+.font_plan11 li {
+	list-style-image: url(../../images/plan/bullet01.gif);
+	padding: 3px 0 3px 22px;
+}
+
+.font_plan11 li span.red {
+	font-size: 0.95em;
+	color: #c73737;
+	padding: 0 8px 0 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

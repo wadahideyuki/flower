@@ -1,0 +1,43 @@
+@charset "UTF-8";
+//メディアクエリ用scss
+@import "init/var";
+
+@mixin mq($bp: m) {
+  @if $bp == xs {
+    @media screen and (max-width: 320px) {
+      @content;
+    }
+  } @else if $bp == s {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+  } @else if $bp == m {
+    @media screen and (max-width: $breakPoint + px) {
+      @content;
+    }
+  } @else if $bp == l {
+    @media screen and (max-width: 1024px) {
+      @content;
+    }
+  } @else if $bp == xl {
+    @media screen and (max-width: 1280px) {
+        @content;
+    }
+  } @else if $bp == pc {
+    @media screen and (min-width: $breakPoint + 1px) {
+        @content;
+    }
+  }
+}
+
+@mixin mqMaxW($bp: 1000px) {
+	@media screen and (max-width: $bp) {
+		@content;
+	}
+}
+
+@mixin mqMinW($bp: 1000px) {
+	@media screen and (min-width: $bp) {
+		@content;
+	}
+}

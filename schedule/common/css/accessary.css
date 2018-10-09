@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* accessary.css */
+
+	
+
+
+
+
+#container_accessary {
+	margin-left: 9px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	width: 990px;
+}
+
+.pad_title_maintitle01 {
+	text-align: left;
+	padding: 0 0 12px 0;
+}
+
+.pad_title_maintitle02 {
+	text-align: left;
+	padding: 10px 0 8px 0;
+}
+
+.pad_title_maintitle03 {
+	text-align: left;
+	padding: 30px 0 8px 0;
+}
+		
+.pad_mainarea_dotline01 {
+	text-align: left;
+	padding: 30px 0 30px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+#container_mainarea02 {
+	width: 790px;
+	margin-top: 9px;
+	margin-left: 138px;
+	text-align: left;
+}
+
+/*------------ プライバシーポリシー ------------*/	
+
+.font_privacyp01 {
+	width: 785px;
+	text-align: left;
+	line-height: 1.4em;
+	font-size: 1.13em;
+	color: #363636;
+	padding: 0 0 13px 2px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.pad_privacy_dotline {
+	padding: 5px 0 25px 0;
+	text-align: left;
+}
+
+.font_privacyp02 {
+	text-align: left;
+	font-size: 1.13em;
+	color: #363636;
+	padding: 0 0 5px 2px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_privacyp03 {
+	text-align: left;
+	width: 730px;
+	font-size: 1.05em;
+	line-height: 1.4em;
+	color: #363636;
+	padding: 0 0 25px 28px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_privacyp04 {
+	text-align: left;
+	font-size: 1.15em;
+	color: #363636;
+	padding: 0 0 10px 48px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_privacyp05 {
+	width: 690px;
+	text-align: left;
+	font-size: 1.06em;
+	line-height: 1.4em;
+	color: #363636;
+	padding: 0 0 18px 67px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_privacyp06 {
+	width: 670px;
+	text-align: left;
+	font-size: 1.06em;
+	line-height: 1.4em;
+	color: #363636;
+	padding: 0 0 26px 90px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.li_privacy06 {
+	list-style: decimal;
+	padding: 0 0 6px 0;
+}
+
+.font_privacyp07 {
+	width: 690px;
+	text-align: left;
+	font-size: 1.06em;
+	line-height: 1.4em;
+	color: #363636;
+	padding: 0 0 26px 67px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_privacyp08 {
+	text-align: left;
+	font-size: 1.03em;
+	line-height: 1.4em;
+	color: #363636;
+	padding: 0 0 66px 30px;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+
+
+/***************** 会社概要 *****************/
+
+#table_corp {
+	width: 725px;
+	margin-bottom: 60px;
+	border-top: 1px #363636 solid;
+	border-left: 1px #363636 solid;
+}
+
+.td_corp01 {
+	font-size: 1.05em;
+	padding: 5px 0 5px 16px;
+	text-align: left;
+	border-bottom: 1px #363636 solid;
+	border-right: 1px #363636 solid;
+	background-color: #FCE8E8;
+}
+
+.td_corp02 {
+	font-size: 1.05em;
+	padding: 12px 0 12px 14px;
+	text-align: left;
+	border-bottom: 1px #363636 solid;
+	border-right: 1px #363636 solid;
+}
+
+.li_corp01 {
+	list-style-image:url(../../images/accessary/bullet.gif);
+	padding: 3px 0 3px 10px;
+}
+
+.font_corp02 {
+	font-size: 1.0em;
+	padding: 0 0 10px 20px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_corp02 span {
+	font-size: 0.88em;
+}
+
+	
+	
+.pad_map {
+	padding: 0 0 0 0;
+	border: 1px #898989 solid;
+	width: 650px;
+}
+	
+	
+	
+	
+	

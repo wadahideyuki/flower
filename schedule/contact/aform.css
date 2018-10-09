@@ -1,0 +1,53 @@
+/* CSS Document */
+
+#chart-column-lbb {
+	width:177px;
+	text-align: right;
+	vertical-align: top;
+	float: left;
+	margin: 0;
+	padding: 15px 10px 15px 0;
+}
+
+#fo_a {
+	font-size: 13px;
+	color: #000000;
+	line-height: 120%;
+	font-weight: normal;
+	text-align: right;
+	text-decoration:none;
+	list-style: disc;
+	margin: 5px 0 5px 18px;
+	padding: 15px 10px 15px 10px;
+}
+
+#fo_b {
+	font-size: 13px;
+	line-height: 120%;
+	font-weight: normal;
+	text-align: left;
+	text-decoration:none;
+	list-style: disc;
+	margin: 5px 0 5px 18px;
+	padding: 15px 0 15px 10px;
+}
+
+#table_form {
+	width: 550px;
+	background-color: #FFFFCC;
+	border-bottom-width: 1px;
+	border-bottom-color: #666666;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-color: #666666;
+	border-top-style: solid;
+	border-left-width: 1px;
+	border-left-color: #666666;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-right-color: #666666;
+	border-right-style: solid;
+	margin-bottom: 5px;
+	margin-top: 12px;
+}	
+

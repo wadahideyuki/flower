@@ -1,0 +1,80 @@
+@charset "UTF-8";
+//変数用scss
+
+//切替
+$breakPoint:767;
+
+//単位
+$px:100px;
+	$px1:1px;
+$per:100%;
+	$per1:1%;
+$vw:100vw;
+	$vw1:1vw;
+$em:100em;
+	$em1:1em;
+$rem:100rem;
+	$rem1:1rem;
+
+//色
+$color1:#fff;
+
+
+//function
+@function px($suuji){
+	@return $suuji * 1px;
+}
+@function px100($suuji){
+	@return $suuji * 100px;
+}
+@function vw1($suuji){
+	@return ($suuji / $breakPoint) * 1vw;
+}
+@function vw($suuji){
+	@return ($suuji / $breakPoint) * 100vw;
+}
+@function per1($suuji){
+	@return percentage($suuji / 100);
+}
+@function em($suuji){
+	@return ($suuji) * 1em;
+}
+
+
+//mixin
+@mixin hvr($op:0.7){
+	transition: 0.3s;
+	&:hover{opacity: $op;}
+}
+
+
+@mixin arrow($bdc:#000, $bdw:3px){
+	&:before{
+		content: "";
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		margin-right: 0.5em;
+		border-style: solid;
+		border-width: $bdw $bdw 0 0;
+		border-color: $bdc $bdc transparent transparent;
+		box-sizing: border-box;
+		transform: rotate(45deg);
+	}
+}
+
+@mixin arrowT($bdc:#000, $bdw:3px){
+	&:before{
+		content: "";
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		margin-right: 0.5em;
+		border-style: solid;
+		border-width: $bdw $bdw 0 0;
+		border-color: $bdc $bdc transparent transparent;
+		box-sizing: border-box;
+		transform: rotate(-45deg);
+	}
+}
+

@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* amuse.css */
+
+
+
+
+/*------------ INDEX------------*/	
+
+
+.pad_title_maintitle01 {
+	text-align: left;
+	padding: 0 0 22px 0;
+}
+
+.pad_title_maintitle02 {
+	text-align: left;
+	padding: 20px 0 15px 0;
+}
+
+.font_amuse01_01 {
+	font-size: 1.08em;
+	width: 625px;
+	line-height: 1.6em;
+	padding: 0 0 35px 4px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_amuse01_01 {
+	text-align: left;
+	padding: 0 0 12px 0;
+}
+
+.pad_amuse01_02 {
+	text-align: center;
+	width: 630px;
+	padding: 10px 0 23px 0;
+}
+		
+.pad_mainarea_dotline01 {
+	text-align: left;
+	padding: 0 0 30px 0;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.li_amuseindex01 {
+	width: 211px;
+	padding: 0 0 15px 9px;
+	text-align: left;
+	float: left;
+}
+
+.li_amuseindex02 {
+	width: 211px;
+	padding: 0 0 15px 0;
+	text-align: left;
+	float: left;
+}
+
+.li_amuseindex03 {
+	width: 184px;
+	padding: 0 0 15px 0;
+	text-align: left;
+	float: left;
+}
+
+ul#amuseindex {
+	width: 627px;
+	margin-left: 1px;
+	margin-top: 28px;
+}
+
+ul#amuseindex li {
+	width: 193px;
+	padding: 0 8px 20px 8px;
+	text-align: center;
+	float: left;
+}
+
+
+
+
+
+.font_amuse01_02 {
+	font-size: 0.93em;
+	width: 190px;
+	line-height: 1.5em;
+	padding: 0 0 12px 0;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_amuse01_03 {
+	font-size: 0.93em;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding: 0 0 5px 0;
+	text-align: left;
+	margin-left: -0.5em;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_amuse01_04 {
+	font-size: 0.93em;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_amuse01_03 {
+	text-align: center;
+	width: 193px;
+	padding: 10px 0 0 0;
+}
+
+.pad_mainarea_dotline02 {
+	text-align: left;
+	padding: 0 0 0 0;
+	margin-top: -3.0em;
+	margin-bottom: -0.0em;
+}
+
+.pad_amuse01_04 {
+	text-align: center;
+	width: 193px;
+	padding: 0 0 0 0;
+}
+
+.font_amuse01_05 {
+	font-size: 1.08em;
+	padding: 0 0 0 4px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+/*------------ 外 観 ------------*/	
+
+#container_amuse01 {
+	margin-left: 9px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.pad_amuse01_001 {
+	text-align: left;
+	padding: 12px 0 12px 0;
+}
+	
+.font_amuse01_001 {
+	font-size: 1.03em;
+	width: 600px;
+	line-height: 1.6em;
+	padding: 0 0 20px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_amuse01_002 {
+	text-align: left;
+	padding: 0 0 3px 0;
+}
+
+.font_amuse01_002 {
+	font-size: 0.93em;
+	width: 270px;
+	line-height: 1.6em;
+	padding: 0 0 20px 337px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_title_maintitle03 {
+	text-align: left;
+	padding: 20px 0 22px 0;
+}
+
+
+.font_amuse01_003 {
+	font-size: 1.08em;
+	width: 480px;
+	line-height: 1.6em;
+	padding: 0 0 35px 4px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_amuse01_004 {
+	font-size: 0.98em;
+	width: 500px;
+	line-height: 1.6em;
+	padding: 0 0 20px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_amuse01_005 {
+	font-size: 0.98em;
+	width: 480px;
+	line-height: 1.6em;
+	padding: 0 0 20px 14px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.font_amuse01_006 {
+	font-size: 0.98em;
+	width: 380px;
+	line-height: 1.6em;
+	padding: 0 0 20px 19px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.font_amuse01_007 {
+	font-size: 0.98em;
+	width: 625px;
+	line-height: 1.6em;
+	padding: 0 0 20px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+	
+
+/*------------ RAC ------------*/	
+
+
+.pad_rac_left {
+	width: 437px;
+	float: left;
+	text-align: left;
+}
+
+.pad_rac_right {
+	width: 193px;
+	float: left;
+	text-align: left;
+}
+
+.pad_rac_title01 {
+	text-align: left;
+	padding: 0 0 47px 0;
+}
+
+.pad_rac_title02 {
+	text-align: left;
+	padding: 0 0 22px 0;
+}
+
+
+.font_amuse_rac01 {
+	font-size: 1.08em;
+	line-height: 1.6em;
+	width: 384px;
+	padding: 0 0 68px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_sidetag {
+	width: 193px;
+	text-align: center;
+	padding: 0 0 22px 0;
+}
+
+.font_amuse_tag01 {
+	font-size: 1.03em;
+	width: 193px;
+	padding: 0 0 17px 0;
+	text-align: center;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}
+
+.pad_rac_title03 {
+	text-align: left;
+	padding: 0 0 4px 0;
+}
+
+.font_amuse_rac02 {
+	font-size: 1.08em;
+	width: 605px;
+	line-height: 1.6em;
+	padding: 0 0 35px 3px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+}	
+
+.pad_amuse_rac01 {
+	text-align: left;
+	padding: 0 0 3px 0;
+}
+
+.pad_rac_left02 {
+	width: 250px;
+	float: left;
+	text-align: center;
+	padding: 40px 0 24px 0;
+}
+
+.pad_rac_right02 {
+	width: 320px;
+	font-size: 1.08em;
+	line-height: 1.6em;
+	padding: 45px 0 25px 27px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+	float: left;
+	text-align: left;
+}
+
+.pad_rac_title04 {
+	text-align: left;
+	padding: 20px 0 4px 0;
+}
+
+
+.li_racindex01 {
+	width: 160px;
+	text-align: left;
+	padding: 0 0 50px 0;
+	float: left;
+}
+
+.li_racindex02 {
+	width: 151px;
+	text-align: left;
+	padding: 0 0 50px 0;
+	float: left;
+}
+
+.pad_rac_title05 {
+	text-align: left;
+	padding: 50px 0 30px 0;
+}
+
+
+
+.pad_ghw_left01 {
+	width: 295px;
+	font-size: 1.08em;
+	line-height: 1.6em;
+	padding: 90px 25px 24px 4px;
+	text-align: left;
+	margin-top: -0.0em;
+	margin-bottom: -0.0em;
+	float: left;
+	text-align: left;
+}
+
+.pad_ghw_right01 {
+	float: left;
+	text-align: left;
+	padding: 10px 0 24px 0;
+}
+	
+.pad_amuse_stg01 {
+	text-align: left;
+	padding: 0 0 14px 0;
+}
+
+

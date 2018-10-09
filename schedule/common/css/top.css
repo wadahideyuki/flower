@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* top.css */
+
+
+
+
+/*------------ CONCEPT------------*/	
+
+
+.pad_title_concept01 {
+	text-align: left;
+	padding: 0 0 22px 0;
+}
+
+.font_concept01 {
+	font-size: 1.13em;
+	line-height: 165%;
+	padding: 0 0 50px 7px;
+	text-align: left;
+}	
+		
+
+
+
+/*------------ news------------*/	
+
+.top_sidearea {
+	width: 315px;
+	text-align: left;
+	float: left;
+}
+
+.top_mainarea {
+	width: 607px;
+	text-align: left;
+	float: left;
+	padding: 0 0 0 68px
+}
+
+
+.pad_sidetitle01 {
+	text-align: left;
+	padding: 0 0 20px 4px;
+}
+
+.pad_topnews_dotline {
+	padding: 5px 0 12px 3px;
+	text-align: left;
+}
+
+.pad_topnewsicon {
+	width: 80px;
+	padding: 0 0 0 8px;
+	text-align: left;
+	float: left;
+}
+
+
+.font_topnews {
+	font-size: 1.0em;
+	width: 208px;
+	line-height: 1.6em;
+	float: left;
+}
+
+
+.font_topnews span {
+	font-size: 0.9em;
+	color: #cc2277;
+}
+
+
+
+
+
+
+/*------------ top topic------------*/	
+
+.li_toptopics01 {
+	width: 325px;
+	padding: 0 0 28px 0;
+	float: left;
+	text-align: left;
+}
+
+.li_toptopics02 {
+	width: 281px;
+	padding: 0 0 28px 0;
+	float: left;
+	text-align: left;
+}
+
+.pad_topdotline01 {
+	padding: 0 0 13px 0;
+}
+
+.pad_topmaintitle01 {
+	padding: 0 0 17px 0;
+}
+
+.li_topfoto01 {
+	width: 208px;
+	padding: 0 0 20px 0;
+	float: left;
+	text-align: left;
+}
+
+.li_topfoto02 {
+	width: 190px;
+	padding: 0 0 20px 0;
+	float: left;
+	text-align: left;
+}
+
+
+
+.pad_topbanner_africa {
+	padding: 32px 0 40px 0;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
