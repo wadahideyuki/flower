@@ -8,19 +8,82 @@ $mincho :  "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hir
 
 html{
   font-size: 10px;
+  @include mq(l){
+    font-size: vwL(10);
+  }
+  @include mq{
+    font-size: vw(10);
+  }
 }
 #wrapper{
   width: 100%;
 }
+.header{
+  max-width: 980px;
+  width: auto;
+  @include mq{
+    margin: 0;
+    padding: vw(15) vw(15) vw(25);
+  }
+  .pad_accessary_left{
+    width: auto;
+    @include mq{
+      margin: auto;
+      padding-top: 0;
+      text-align: center;
+      float: none;
+      a{
+        display: inline-block;
+        max-width: 80%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .pad_accessary_right{
+    @include mq{
+      display: none;
+    }
+  }
+}
 #container_sitemap{
   width: 100%;
+  @include mq{
+    display: none;
+  }
 }
+#footer{
+  position: static;
+  @include mq{
+    height: auto;
+  }
+  .copyright{
+    @include mq{
+      padding: vw(20);
+      font-size: 2.0rem;
+      text-align: center;
+      float: none;
+    }
+  }
+}
+
+
 
 .ex2018{
   font-size: 1.4rem;
   line-height: 1.8;
+  @include mq{
+    font-size: 2.8rem;
+  }
   section{
-    padding: 100px 0 0 0;
+    padding: 100px 0 0;
+    @include mq(l){
+      padding-top: vwL(50);
+    }
+    @include mq{
+      padding-top: vw(50);
+    }
   }
   h2{
     font-family: $mincho;
@@ -44,21 +107,45 @@ html{
     h1{
       text-align: center;
       padding: 60px 10px;
+      @include mq{
+        padding: vw(60) vw(40);
+      }
     }
   }
   
   .content-overview{
+    padding-left: 30px;
+    padding-right: 30px;
+    @include mq{
+      padding-left: vw(30);
+      padding-right: vw(30);
+    }
     .overview-box{
       max-width: 1300px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
+      @include mq{
+        display: block;
+      }
       & > div{
         width: 47%;
         text-align: left;
+        @include mq(l){
+          width: 48%;
+        }
+        @include mq{
+          width: auto;
+          &.en{
+            padding-top: 1em;
+          }
+        }
         p{
           line-height: 2.2;
           padding-top: 2em;
+          @include mq{
+            padding-top: 0;
+          }
         }
       }
       dl{
@@ -67,15 +154,24 @@ html{
         margin-bottom: 1em;
         display: flex;
         justify-content: space-between;
+        @include mq{
+          display: block;
+        }
         &:last-of-type{
           border-bottom: 1px solid #000;
           padding-bottom: 1em;
         }
         dt{
           width: 20%;
+          @include mq{
+            width: auto;
+          }
         }
         dd{
           width: 80%;
+          @include mq{
+            width: auto;
+          }
           span{
             color: #999;
             line-height: 1.6;
@@ -84,6 +180,9 @@ html{
             font-size: 1.2rem;
             text-indent: -1em;
             margin-left: 1em;
+            @include mq{
+              font-size: 0.9em;
+            }
           }
         }
       }
@@ -92,10 +191,21 @@ html{
       display: flex;
       padding: 100px 0 0 0;
       justify-content: space-between;
+      @include mq(l){
+        padding-top: vwL(50);
+      }
+      @include mq{
+        display: block;
+        padding-top: vw(50);
+      }
       li{
         width: 50%;
-        a{
-          padding: 13% 0;
+        @include mq{
+          width: auto;
+        }
+        span{
+          display: block;
+          padding: 9% 0;
           font-size: 5rem;
           font-family: $mincho;
           color: #FFF;
@@ -119,31 +229,99 @@ html{
       }
     }
   }
+  .content-exhibitor{
+    padding-left: 30px;
+    padding-right: 30px;
+    @include mq{
+      padding-left: vw(30);
+      padding-right: vw(30);
+    }
+  }
+  .movBox{
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    position: relative;
+    &:before{
+      content: "";
+      display: block;
+      padding-top: 55%;
+    }
+    @include mq(l){
+      margin-bottom: vwL(50);
+    }
+    @include mq{
+      margin-bottom: vw(50);
+    }
+    .in{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    iframe{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .exhibitor-boxTab{
+    display: flex;
+    h3{
+      
+    }
+  }
   .exhibitor-box{
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-top: 1px solid #000;
     padding: 2em 0;
-    &:first-of-type{
-      border-top: 3px solid #000;
+    .tabs{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #000;
+      @include mq{
+        margin-bottom: vw(15);
+      }
+      h3{
+        width: 33.3333%;
+        font-size: 1.8rem;
+        cursor: pointer;
+        @include hvr;
+        @include mq{
+          font-size: 1.2em;
+        }
+        span{
+          display: block;
+          padding: 0 0.8em 0.2em;
+        }
+        &.show{
+          span{
+            border-bottom: 3px solid #000;
+          }
+        }
+      }
     }
-    h3{
-      width: 10%;
-      font-size: 1.8rem;
-      text-align: left;
+    .box{
+      display: none;
+      &.show{
+        display: block;
+      }
+      @include mq{
+      }
     }
     dl{
-      width: 90%;
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
       text-align: left;
       &:first-of-type{
         border-top: 3px;
+      }
+      @include mq{
+        display: block;
+        width: auto;
       }
       dt{
         width: 15%;
@@ -156,10 +334,20 @@ html{
   }
     .col3-btn{
       display: flex;
-      padding: 100px 0 0 0;
       justify-content: space-between;
+      padding: 100px 0 0 0;
+      @include mq(l){
+        padding-top: vwL(50);
+      }
+      @include mq{
+        display: block;
+        padding-top: vw(50);
+      }
       li{
         width: 35%;
+        @include mq{
+          width: auto;
+        }
         a{
           padding: 18% 0;
           font-size: 2.5rem;
@@ -167,13 +355,16 @@ html{
           color: #FFF;
           text-align: center;
           display: block;
-          background-size:110% auto  ;
+          background-size:120% auto  ;
           background-repeat: no-repeat;
           background-position: center;
           transition: 0.3s;
+          @include mq{
+            font-size: 110%;
+          }
           &:hover{
           text-decoration: none;
-            background-size: 120% auto;
+            background-size: 130% auto;
           }
           &.ex2015{
             background-image: url("../../2018/img/ex2015.png")
@@ -189,11 +380,35 @@ html{
     }
   .content-talk{
     padding-bottom: 100px;
+    @include mq(l){
+      padding-bottom: vwL(50);
+    }
+    @include mq{
+      padding-bottom: vw(50);
+    }
+    h2{
+      padding: 0 30px;
+      @include mq(l){
+        padding: 0 vwL(30);
+      }
+      @include mq{
+        padding: 0 vw(30);
+      }
+    }
     .talk-box{
       max-width: 1000px;
       margin: 0 auto;
-      width: 100%;
+      padding: 0 30px;
       text-align: left;
+      @include mq(l){
+        padding: 0 vwL(30);
+      }
+      @include mq{
+        padding: 0 vw(30);
+      }
+      > img{
+        width: 100%;
+      }
       ul{
         padding-top: 1em;
         li{
@@ -206,8 +421,16 @@ html{
   }
   .vol-box{
     background: #EEE;
-    padding: 40px;
     margin-top: 50px;
+    padding: 40px 40px 25px;
+    @include mq(l){
+      margin-top: vwL(50);
+      padding: vwL(40) vwL(40) vwL(25);
+    }
+    @include mq{
+      margin-top: vw(50);
+      padding: vw(30) vw(30) vw(15);
+    }
     dt{
       font-size: 2.2rem;
       font-family: $mincho;
@@ -215,6 +438,9 @@ html{
       border-bottom: 1px solid #000;
       padding: 0 0 0.5em 0;
       margin-bottom: 0.5em;
+      @include mq{
+        font-size: 3.2rem;
+      }
       span{
         font-size: 1.4rem;
         background: #000;
@@ -224,41 +450,221 @@ html{
         vertical-align: middle;
         display: inline-block;
         padding: 0.4em 0.5em;
+        @include mq{
+          font-size: 1.8rem;
+        }
       }
       em{
         font-size: 2rem;
+        @include mq{
+          font-size: 2.8rem;
+        }
       }
     }
     p{
       font-size: 1.6rem;
+      @include mq{
+        font-size: 2.4rem;
+      }
     }
     h4{
       font-weight: bold;
       font-size: 2.2rem;
       font-family: $mincho;
       padding: 1em 0 0 0;
+      @include mq{
+        font-size: 3.0rem;
+      }
     }
     .syutsuen{
       display: flex;
-      margin-left: -2%;
+      flex-wrap: wrap;
+      @include mq{
+        padding-top: 0.2em !important;
+      }
       li{
-        width: 23%;
-        margin: 0 2%;
+        width: 23.5%;
+        margin: 0 2% 2% 0;
         text-align: center;
+        &:nth-child(4n){
+          margin-right: 0;
+        }
+        @include mq{
+          width: 48%;
+          margin: 0 4% 6% 0;
+          &:nth-child(2n){
+            margin-right: 0;
+          }
+        }
         img{
           max-width: 100%;
+        }
+        p{
+          @include mq{
+            padding-top: 0.5em !important;
+            font-size: 2.0rem;
+          }
+          span{
+            display: block;
+            font-size: 0.8em;
+          }
         }
       }
     }
   }
   .content-colabo{
     background: #f4f4f4;
+    padding: 100px 30px;
+    @include mq(l){
+      padding: vwL(50) vwL(30);
+    }
+    @include mq{
+      padding: vw(50) vw(30);
+    }
     h2{
       margin-bottom: 0;
     }
     p{
       font-size: 1.6rem;
       padding: 2em;
+    }
+    .thumTxtList{
+      max-width: 800px;
+      margin: auto;
+      padding-top: 60px;
+      @include mq(l){
+        max-width: vwL(800);
+        padding-top: vwL(60);
+      }
+      @include mq{
+        max-width: none;
+        padding-top: vw(60);
+      }
+      li{
+        display: flex;
+        + li{
+          margin-top: 3%;
+          @include mq{
+            margin-top: 5%;
+          }
+        }
+        .img{
+          flex-shrink: 0;
+          width: 25%;
+          img{
+            width: 100%;
+          }
+        }
+        p{
+          padding: 0 0 0 1em;
+          color: #000;
+          font-size: 1.5rem;
+          line-height: (21/15);
+          text-align: left;
+          @include mq{
+            font-size: 2.0rem;
+          }
+          strong{
+            display: block;
+            margin-bottom: 0.3em;
+            font-size: 1.2em;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .content-partners{
+    padding-bottom: 100px;
+    @include mq(l){
+      padding-bottom: vwL(50);
+    }
+    @include mq{
+      padding-bottom: vw(50);
+    }
+    h2{
+      margin-bottom: 0;
+    }
+    p{
+      font-size: 1.6rem;
+      padding: 2em;
+      @include mq{
+        font-size: 2.4rem;
+      }
+      span{
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+  .content-contact{
+    background-color: #000;
+    padding-bottom: 100px;
+    color: #fff;
+    @include mq(l){
+      padding-bottom: vwL(50);
+    }
+    @include mq{
+      padding-bottom: vw(50);
+    }
+    h2{
+      margin-bottom: 0;
+      span{
+        border-bottom-color: #fff;
+      }
+    }
+    p{
+      font-size: 1.6rem;
+      padding: 2em;
+      @include mq{
+        font-size: 2.4rem;
+      }
+    }
+    .btn{
+      display: block;
+      padding-top: 10px;
+      @include mq{
+        padding-top: vw(20);
+      }
+      a{
+        display: inline-block;
+        padding: 8px 15px;
+        color: #fff;
+        border: 1px solid #fff;
+        @include mq{
+          padding: vw(16) vw(30);
+        }
+      }
+    }
+    .snsBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li{
+        + li{
+          margin-left: 30px;
+        }
+        @include mq{
+          + li{
+            margin-left: vw(60);
+          }
+          &.fb{
+            width: vw(78);
+          }
+          &.inst{
+            width: vw(90);
+          }
+        }
+        a{
+          display: block;
+          @include hvr;
+          img{
+            @include mq{
+              width: 100%;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -289,9 +695,51 @@ html{
   display: none;
   .modal-inner{
     max-width: 700px;
-    padding: 50px;
+    padding: 30px 20px;
     width: 96%;
     background: #FFF;
+    box-sizing: border-box;
+    @include mq(l){
+      width: 80%;
+      padding: vwL(30) vwL(20);
+    }
+    @include mq{
+      padding: vw(30) vw(20);
+    }
+  }
+  .mdlCont{
+    height: 90vh;
+    padding: 20px 30px;
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 2;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    @include mq(l){
+      height: 70vh;
+      padding: vwL(20) vwL(30);
+      font-size: 1.6rem;
+    }
+    @include mq{
+      padding: vw(20) vw(30);
+      font-size: 2.0rem;
+    }
+    li{
+      + li{
+        margin-top: 2em;
+      }
+      &.ttl{
+        font-size: 1.2em;
+        text-align: center;
+      }
+      .ja{
+        font-family: $mincho;
+      }
+      .en{
+        color: #999;
+        font-size: 0.9em;
+      }
+    }
   }
   .modal-close{
     position: fixed;
@@ -300,6 +748,12 @@ html{
     font-size: 5vw;
     color: #FFF;
     line-height: 1;
+    @include mq(l){
+      font-size: 10vw;
+    }
+    @include mq{
+      font-size: 15vw;
+    }
   }
   
 }

@@ -68,11 +68,16 @@ html(lang='ja')
               p
             .cl
         .ex2018
+          - var spW = "(max-width:767px)";
           main
-            img(src="2018/img/main1.png")
+            picture
+              source(srcset="2018/img/main1_sp.png" media=spW)
+              img(src="2018/img/main1.png")
             h1
               img(src="2018/img/ttl.png")
-            img(src="2018/img/main2.png")
+            picture
+              source(srcset="2018/img/main2_sp.png" media=spW)
+              img(src="2018/img/main2.png")
           section.content-overview
             h2 
               span OVERVIEW 
@@ -145,49 +150,133 @@ html(lang='ja')
                   | through its Ikebana activities, creates opportunities to experience the joy and excitement of Japanese cultures. It also offers places to disseminate and share new perceptions of Japanese cultures and messages triggering interests.
             ul.col2-btn
               li
-                a.greet(href="#modal-Greeting") Greeting
+                span.greet Greeting
               li
-                a.about(href="#modal-About") About us
-                
+                span.about About us
+
           section.content-exhibitor
             h2 
               span EXHIBITOR
               br
               | FJ2018 出品者
+            .movBox
+              .in
+                iframe(width="100%" height="315" src="https://www.youtube.com/embed/r8u1uJhSMTI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)
             .exhibitor-box
-              h3 通期
-              dl
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-                dt  棚澤啓介
-                dd  株式会社クライス＆カンパニー	シニアヴァイスプレジエント
-                dt  中村奈都子
-                dd  株式会社日本経済新聞社	編集局　NIKKEI TheSTYLE編集長
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-            .exhibitor-box
-              h3 前期
-              dl
-                dt  久保明彦	
-                dd  株式会社ウィリアムズ・リー・ジャパン	代表取締役社長　北アジア地区マネージングディレクター
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-            .exhibitor-box
-              h3 後期
-              dl
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-                dt  菅大介
-                dd  株式会社チェリオコーポレーション　専務取締役
-          
+              .tabs
+                h3.show #[span 通期]
+                h3 #[span 前期]
+                h3 #[span 後期]
+              .box.show
+                dl
+                  dt 菅大介
+                  dd 株式会社チェリオコーポレーション　専務取締役
+                  dt 棚澤啓介
+                  dd 株式会社クライス＆カンパニー	シニアヴァイスプレジエント
+                  dt 中村奈都子
+                  dd 株式会社日本経済新聞社	編集局　NIKKEI TheSTYLE編集長
+                  dt 程近智
+                  dd アクセンチュア株式会社	相談役
+                  dt 堀内勉
+                  dd 株式会社アクアイグニス	取締役会長
+              .box
+                dl
+                  dt 青井浩
+                  dd 株式会社丸井グループ	代表取締役社長
+                  dt 浅川誠一郎
+                  dd 東京化成工業株式会社	代表取締役社長
+                  dt 朝倉陽保
+                  dd 株式会社丸の内キャピタル	代表取締役社長
+                  dt 渥美修一郎
+                  dd 株式会社アチーブゴール	代表取締役
+                  dt 井上英明
+                  dd 株式会社パーク・コーポレーション	代表取締役
+                  dt 入山章栄
+                  dd 早稲田大学	大学院経営管理研究科、ビジネススクール　准教授
+                  dt 漆紫穂子
+                  dd 品川女子学院	理事長
+                  dt 及川美紀
+                  dd 株式会社POLA	取締役
+                  dt 大和田整
+                  dd 株式会社乃村工藝社	取締役
+                  dt 押野見由美
+                  dd 株式会社資生堂	SHISEDO THE STORE
+                  dt 尾関竜太郎
+                  dd 株式会社尾関	代表取締役社長
+                  dt 鎌田由美子
+                  dd カルビー株式会社	上級執行役員
+                  dt 川村喜久
+                  dd DICグラフィック株式会社	取締役会長
+                  dt 正能茉優
+                  dd 株式会社ハピキラFACTORY／ソニー株式会社／慶應義塾大学大学院	代表取締役社長／新商品企画担当／政策・メディア研究科　特任助教
+                  dt 高橋秀行
+                  dd ステート・ストリート信託銀行	取締役会長
+                  dt 高濱正伸
+                  dd 株式会社こうゆう　花まる学習会	代表取締役
+                  dt 田辺建二
+                  dd UBS銀行	ウェルス・マネジメント本部 部長
+                  dt 田村Rosambert愛
+                  dd Mirror	代表取締役社長
+                  dt 福田淳
+                  dd 株式会社スピーディ	代表取締役社長
+                  dt 山田メユミ
+                  dd 株式会社アイスタイル	取締役
+                  dt Chujun
+                  dd Liaoning Junding Cultural Industry Development Co., Ltd.	General Manager
+              .box
+                dl
+                  dt 秋田隆輝
+                  dd 豊作プロジェクト株式会社	代表取締役
+                  dt 池貝知子
+                  dd 株式会社アイケイジー	代表取締役
+                  dt 石原亮子
+                  dd 株式会社Surpass	代表取締役社長
+                  dt 上田祐司
+                  dd 株式会社ガイアックス	代表執行役社長
+                  dt 神森 真理子
+                  dd ジャパントラディショナルカルチャーラボ株式会社	代表取締役
+                  dt 神谷瑛子
+                  dd 株式会社エッジ・インターナショナル	グループリーダー
+                  dt 木村憲司
+                  dd 木村商事株式会社	取締役　副社長
+                  dt 久保明彦
+                  dd 株式会社ウィリアムズ・リー・ジャパン	代表取締役社長　北アジア地区マネージングディレクター
+                  dt 久保田誠
+                  dd 株式会社ガズレレ	取締役社長
+                  dt 小嶋隆
+                  dd 株式会社日能研関東	代表取締役
+                  dt 斎藤祐馬
+                  dd デロイトトーマツベンチャーサポート株式会社	事業統括本部長
+                  dt 柴田佳代子
+                  dd ケルヒャー ジャパン株式会社	CFO
+                  dt 柴沼俊一
+                  dd 株式会社シグマクシス	上級執行役員
+                  dt 白川もえぎ
+                  dd アンダーソン・毛利・友常法律事務所	パートナー
+                  dt 白河桃子
+                  dd 少子化ジャーナリスト／作家
+                  dt 新谷晃人
+                  dd バリュークリエーション株式会社	代表取締役
+                  dt 高井伸太郎
+                  dd 高井＆パートナーズ法律事務所	代表弁護士
+                  dt 田口義隆
+                  dd セイノ-ホールディングス株式会社	代表取締役社長
+                  dt 田口義展
+                  dd GENie株式会社	取締役営業本部長
+                  dt 永田　洋
+                  dd 株式会社エッジ・インターナショナル	統合報告／レピュテーションマネジメント推進室　室長
+                  dt 中原悦夫
+                  dd 医療法人社団協立歯科クリニークデュボワ	理事長
+                  dt 松古樹美
+                  dd オムロン株式会社	サステナビリティ推進室エンゲージメント推進部長
+                  dt 松本真二
+                  dd 株式会社アカンプリッシュ	代表取締役
+                  dt 諸橋峰雄
+                  dd 株式会社サイダス	執行役員　経営戦略室長
+                  dt 山田偉津子
+                  dd BCG Digital Ventures	Strategic Designer
+                  dt 他
+
           ul.col3-btn
             li
               a.ex2015(href="/exhibition2015.html") FLOWER JAPAN2015の
@@ -210,7 +299,7 @@ html(lang='ja')
               br
               | Flower Japan 2018  IKEBANA NIGHT !!
             .talk-box
-              img(src="https://dummyimage.com/1000x400/000/fff")
+              img(src="2018/img/talkevent_img.png")
               ul
                 li  日時：2018年11月９日(金) 　17時～20時
                 li  会場：ヒルサイトドフォーラム （東京・代官山）
@@ -255,45 +344,238 @@ html(lang='ja')
                       p 堀内勉氏
                         span 株式会社アクアイグニス
                           br
-                          |取締役会長
+                          | 取締役会長
                     li
                       img(src="https://dummyimage.com/400x400/000/fff")
-                      p 堀内勉氏
-                        span 株式会社アクアイグニス
+                      p 菅大介氏
+                        span 株式会社チェリオコーポレーション
                           br
-                          |取締役会長
+                          | 専務取締役
                     li
                       img(src="https://dummyimage.com/400x400/000/fff")
-                      p 堀内勉氏
-                        span 株式会社アクアイグニス
+                      p 中村奈都子
+                        span 日本経済新聞社 編集局
                           br
-                          |取締役会長
+                          | NIKKEI The STYLE 編集長
                     li
                       img(src="https://dummyimage.com/400x400/000/fff")
-                      p 堀内勉氏
-                        span 株式会社アクアイグニス
+                      p 州村衛香
+                        span いけばな作家
                           br
-                          |取締役会長
-                
+                          | Flower Japan　代表
+
           section.content-colabo
             h2 
               span COLLABORATIONS
               br
               | コラボレーション企画
             p 会期中は、さまざなま花にまつわるコラボレーション企画をご用意して皆様をお待ちしております。
+            ul.thumTxtList
+              li
+                .img
+                  img(src="https://dummyimage.com/400x400/000/fff")
+                p
+                  strong ファースト・パトロネージュ・プログラム：
+                  | 一般財団法人川村文化芸術振興財団の主催、一般社団法人ザ・クリエイション・オブ・ジャパンの協力により実施されるプログラム。ここから選出された若手工芸作家の作品を、本展出品者が購入し、若き創り手のスタートとこの活動を支援します。
+              li
+                .img
+                  img(src="https://dummyimage.com/400x400/000/fff")
+                p
+                  strong POP UP SHOP：
+                  | Flower Japanがセレクトした花器、花鋏などをお求めいただけます。
+              li
+                .img
+                  img(src="https://dummyimage.com/400x400/000/fff")
+                p
+                  strong WORKSHOP：
+                  | 「一花一葉」またはお好きな花を２本選び、器と花とが調和する２輪挿しのいけばなの体験ができます。
+              li
+                .img
+                  img(src="https://dummyimage.com/400x400/000/fff")
+                p
+                  strong CAFE：
+                  | 会場内のカフェでは、昨年も好評だったWABARAによるレモネードなど特別なフラワーメニューをご用意しております。
+              li
+                .img
+                  img(src="https://dummyimage.com/400x400/000/fff")
+                p
+                  strong IINSTALLATION ：
+                  | いけばな作家・大久保雅永による、ヒルサイドテラスのシンボルツリーを取り込んだ、屋外のいけばなインスタレーションが出現します。
+                
+          section.content-partners
+            h2 
+              span Partners
+              br
+              | 協賛、協力企業団体
+            p
+              span
+                | [企画協力] IKEBANA ATRIUM 株式会社スペースイフェクト　一般社団法人ジャパン・フラワー&コミュニケーションズ  PARAMETA INK.
+                br
+                | [協賛]ロート製薬株式会社　西濃運輸株式会社　ヒルサイドテラス    ローズファームケイジ　浜松PCガーベラ　
+                br
+                | [特別協力]　いけばな古流理恩会　いけばな龍生派　一般財団法人川村文化芸術振興財団　一般社団法人ザ・クリエイション・オブ・ジャパン　
+                
+          section.content-contact
+            h2 
+              span CONTACT
+              br
+              | 主催・お問い合わせ
+            p Flower Japan実行委員会事務局 
+              br
+              | 〒108-0074 東京都港区高輪3-13-1 
+              br
+              | グランドプリンスホテル新高輪1F IKEBANA ATRIUM内 
+              br
+              | TEL/FAX 03-3444-8744
+              br
+              | E-mail : info@flowerjapan.jp 
+              span.btn #[a(href="#") メールでのお問い合わせ]
+            ul.snsBox
+              li.fb
+                a(href="https://www.facebook.com/flowerjapanproject/",target="_blank")
+                  img(src="2018/img/fb_wht.png")
+              li.inst
+                a(href="https://www.instagram.com/flowerjapanproject/?hl=ja",target="_blank")
+                  img(src="2018/img/insta_wht.png")
 
 
 
-            
-            
-              
-          
 
 
-                    
-                    
         .modal
-          .modal-inner
-            p ここにテキストが入る
           .modal-close ×
+          .modal-inner
+            .mdlCont.greet
+              ul
+                li.ttl
+                  p.ja ごあいさつ
+                  p.en Message from the Chairman
+                li
+                  p.ja 「いけばな」という日本で生まれた文化は、
+                    br
+                    | 今では、世界中に広がり親しまれている花文化です。
+                  p.en “Ikebana”, a culture originated from Japan, is now a recognized flower culture spread across the globe.
+                li
+                  p.ja ３年目を迎える今年は、銀座から代官山へと場所を移しました。
+                  p.en This year, on the third year of the exhibition, we moved our location from Ginza to Daikanyama.
+                li
+                  p.ja 今年の展覧会のテーマは、「本と花」。
+                  p.en The theme of this year’s exhibition is “books and flowers.”
+                li
+                  p.ja ビジネスリーダーの方々が選んだ１冊の本から
+                    br
+                    | いけばな作品が生まれる、いけばな展としては初の試みです。
+                  p.en An ikebana work is created from a book chosen by each of the business leaders – this is the first-ever attempt for an Ikebana exhibition. 
+                li
+                  p.ja 本から生まれたいけばなと、いけばなから出会う本。
+                  p.en An Ikebana work created from a book, and a book found from an Ikebana work.
+                li
+                  p.ja 本もいけばなも、作者が紡ぎ出す世界。
+                  p.en A book as well as an Ikebana work is a world woven by a creator.
+                li
+                  p.ja その世界に人が出会い、感性を揺さぶられ、
+                    br
+                    | 深く心の中に何かが届いていく深みのある時間と空間のある世界です。
+                  p.en Those who meet its world are deeply inspired, feel something deep down in their heart – that world is profound and spacious. 
+                li
+                  p.ja 読書の秋、そして芸術の秋。
+                  p.en In Japan, we say the autumn is the best season for reading and art.
+                  p.ja この季節は、それぞれの持つ世界がより深く私たちの感性を刺激します。
+                  p.en In autumn, the world of reading as well as art stimulates our sense and sensibility even more than usual.
+                li
+                  p.ja 「豊かに生きる」ことに必要な文化の力を、
+                    br
+                    | いけばなを通して、感じていただけましたら幸いです。
+                  p.en It is our sincere hope that, through Ikebana, you will feel the potential of culture necessary to “live an enriched life.”
+                li
+                  p.ja 本展にご出品いただいた方々は、
+                    br
+                    | FlowerJapanの理念に賛同された、いけばなのメッセンジャーでもあります。
+                    br
+                    | 出品者の想いが込められたいけばなを
+                    br
+                    | 心ゆくまでお楽しみください。
+                  p.en Those who submitted works to our exhibition are messengers of Ikebana supporting the philosophy of FlowerJapan. Please enjoy the heartwarming works of the exhibitors.
+                li
+                  p.ja 最後に、「次世代に繋げるいけばな文化」への継承の想いに
+                    br
+                    | 多くの方々がご賛同くださり、お力添えいただき本展覧会を実現する運びとなりました。
+                    br
+                    | 本展にご協力いただきました全ての方々に、心より御礼を申し上げます。
+                  p.en Lastly, numerous people supported our desire of succeeding “Ikebana culture to the next generation”, and with their effort and cooperation, we were able to make the exhibition come true.
+                    br
+                    | I hereby would like to thank all of you who contributed and supported the 3rd Exhibition.
+                li
+                  p.ja FlowerJapan 実行委員会　代表
+                  p.en Chairman, FlowerJapan Executive Committee 
+                  p.ja いけばな作家
+                  p.en Ikebana Artist
+                  p.ja 州村衛香
+                  p.en Eikou Sumura
+
+            .mdlCont.about
+              ul
+                li.ttl
+                  p.ja FlowerJapan　とは
+                  p.en About FlowerJapan
+                li
+                  p.ja Flower Japanは、日本文化である「いけばな」を軸に、
+                    br
+                    | より豊かなライフスタイルを日本に、世界に、次世代へと伝え創出していくプロジェクトです。
+                  p.en FlowerJapan is a project to disseminate a more enriched lifestyle throughout Japan, to the world, and to the next generation, with the Japanese culture “Ikebana” at its core.
+                li
+                  p.ja いけばな作家・州村衛香の呼びかけに賛同した様々なジャンルのオピニオンリーダーたちが集い、2015年からいけばなを通した文化発信を行っています。
+                  p.en Since 2015, opinion leaders from a variety of backgrounds supporting Eikou Sumura, an Ikebana Artist, have been offering cultural information through Ikebana.
+                li
+                  p.ja いけばなを通して、日本文化に宿る醍醐味を体験いただく機会や、
+                    br
+                    | 日本文化への新たな気づき、興味のきっかけとなる発信、共有できる場を創出して参ります。
+                  p.en FlowerJapan, through its Ikebana activities, creates opportunities to experience the joy and excitement of Japanese cultures. It also offers places to disseminate and share new perceptions of Japanese cultures and messages triggering interests.
+                li
+                  p.ja いけばなは、植物を活かすこと。
+                  p.en Ikebana is about bringing life to flowers and plants.
+                  p.ja そして植物に想いを託して伝えることでもあります。
+                  p.en It is also about expressing our inner thoughts and feelings through flowers and plants.
+                li
+                  p.ja 日本独自の発展を遂げたいけばなは、
+                    br
+                    | 現在世界中に広がる花文化となりました。
+                  p.en Ikebana had evolved in Japan independently but it has now become a flower culture spreading across the globe. 
+                li
+                  p.ja 武士の嗜みでもあったいけばなは、
+                    br
+                    | 感性を研ぎ澄ます瞑想のような側面もあります。
+                  p.en Ikebana used to be one of the essential disciplines of Samurai warriors—it has an aspect of meditation to refine our sensibility.
+                li
+                  p.ja 「ビジネス」と「いけばな」に共通する、直観力、決断力、想像力、そして俯瞰の眼。
+                  p.en Perceptiveness, decision-making, creativity, and focusing on the big picture— these skills are common to both “business” and “Ikebana.”
+                  p.ja こうしたスキルの鍛錬の場でもあるいけばな。
+                  p.en Ikebana is a disciplinary place to acquire these skills. 
+                li
+                  p.ja この醍醐味に触れていただき、伝えるきっかけとして
+                    br
+                    | 本展「ビジネスリーダーたちのいけばな展」が2015年よりスタートしました。
+                  p.en Our exhibition, “Ikebana Exhibition by Business Leaders,” started in 2015, with the hope of bringing and expressing the joy and excitement. 
+                li
+                  p.ja 時代と共に、
+                    br
+                    | 文化の継承の仕方、お稽古文化も大きく変化しています。
+                    br
+                    | 今は、まさにその転換期。
+                  p.en The inheritance of a culture as well as the culture of enrichment lessons is changing significantly with the times. Now, we are right at the turning point.
+                li
+                  p.ja 次世代へと繋いでいくための
+                    br
+                    | いけばなのあり方や、その伝え方を模索しながら
+                    br
+                    | 植物と人との深い交流から生まれる美の世界を追求して参ります。
+                  p.en We’ll seek out the world of beauty coming from profound interactions when plants and humanity are brought together— by exploring the way of Ikebana and how to pass it on to the next generation.
+
+
+
+
         include _footer.pug
+
+
+
+

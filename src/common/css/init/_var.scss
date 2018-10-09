@@ -28,10 +28,13 @@ $color1:#fff;
 	@return $suuji * 100px;
 }
 @function vw1($suuji){
-	@return ($suuji / $breakPoint) * 1vw;
+	@return ($suuji / 640) * 1vw;
 }
 @function vw($suuji){
-	@return ($suuji / $breakPoint) * 100vw;
+	@return ($suuji / 640) * 100vw;
+}
+@function vwL($suuji){
+	@return ($suuji / 1024) * 100vw;
 }
 @function per1($suuji){
 	@return percentage($suuji / 100);
